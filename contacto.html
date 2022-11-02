@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="estilos/folha.css">
+<link rel="stylesheet" type="text/css" href="estilos/contacte.css">
+<title>Fale Conosco</title>
+
+</head>
+<body>
+<div id="interface">
+<header id="cabecalho">
+  
+<p class="rr_left"><script type="text/javascript">
+  data = new Date();
+  dia = data.getDate();
+  mes = data.getMonth();
+  ano = data.getFullYear();
+
+  meses = new Array(12);
+
+  meses[0] = "Janeiro";
+  meses[1] = "Fevereiro";
+  meses[2] = "Março";
+  meses[3] = "Abril";
+  meses[4] = "Maio";
+  meses[5] = "Junho";
+  meses[6] = "Julho";
+  meses[7] = "Agosto";
+  meses[8] = "Setembro";
+  meses[9] = "Outubro";
+  meses[10] = "Novembro";
+  meses[11] = "Dezembro";
+  document.write ("Hoje " + dia + " " + meses[mes] + " " + ano);
+</script></p>
+
+<nav id="menu">
+<ul>
+<li><a href="index.html">INÍCIO</a></li>
+<li><a href="cursos.html">CURSOS</a></li>
+<li><a href="informacao-doc/sala-de-aula.html">INFORMAÇÃO</a></li>
+<li><a href="contacto.html">CONTACTE-NOS</a></li>
+<li><a href="inscreva-se.html">INSCREVA-SE</a></li>
+<li><a href="#">ENSINO PRIMÁRIO</a></li>
+<li><a href="outros/extra.html">MAIS</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+
+</ul>
+</nav>
+
+<li style="list-style: none; position:absolute; top: 10px;"><a href="index.html"><img src="imgs/logo-site1.png"></a></li>
+</header>
+<section id="corpo">
+  <h1>FALE CONNOSCO</h1>
+
+  <p style="text-indent: 50px; padding-left: 10px;"><b>Local</b>: Venha ter connosco e conhaça-nos, o Colégio Maria Luísa é uma instituição cuja a sua localização é de fácil e rápido acesso. Paase o mouse sobre a pequena imagem.</p>
+<div class="dropdown">
+  <img src="imgs/croquis-peq.png" alt="Croquis de Localização" width="100px" height="50px">
+  <div class="dropdown-content">
+    <img src="imgs/croquis.png" alt="Croquis de Localização" width="664px" height="424px">
+    <div class="desc">Croquis de Localização 2014/2015 <a href="imgs/croquis2.png" target="_blank">abrir imagem</a></div>
+  </div>
+</div>
+
+<p><span style="font-weight: bold;">Nota</span>: Após o devido e correcto preenchimento do formulário, podes deixar a sua dúvida, crítica e sugestão. Ajuda o teu colégio a evoluir.</p>
+<p><span style="font-weight: bold;">Nota</span>: Pode ainda entrar em contacto connosco através dos seguinte contacto telefônico: <b>941 702 249</b></p>
+
+			<form method="post" class="usuario" id="cont" action="malito:anilesioxavier.ani@facebook.com">
+				<fieldset id="correio">
+          <legend>Deixe a sua mensagem</legend>
+
+      <fieldset class="resp">
+        <legend><label for="INome">Nome: </label></legend><input type="text" name="Nome" id="INome" size="20" maxlength="30" placeholder=" Digite o seu nome" class="int"/>
+      </fieldset>
+
+    <fieldset class="resp">
+    <legend><label for="IMail">E-mail </legend>
+   <input type="email" name="Mail" id="IMail" size="20" maxlength="40" placeholder=" nome@.aaa.com" class="int"></label></fieldset>
+		
+		
+		<fieldset id="sexo">
+			<legend>Gênero:</legend>
+			<input type="radio" name="Sexo" id="IMasc"/><label for="IMasc">Masculino</label>
+			<input type="radio" name="Sexo" id="IFem"><label for="IFem">Femenino</label>
+		</fieldset>
+    
+    <fieldset class="resp" style="margin-top: 20px;">
+      <legend><label for="ICid">Cidade: </label></legend>
+      <input type="text" name="Cid" maxlength="30" placeholder="Sua Cidade" list="cidades" class="int"/>
+  <datalist id="cidades">
+    <option value="Luanda"></option>
+    <option value="Benguela"></option>
+    <option value="Malange"></option>
+    <option value="Cabinda"></option>
+    <option value="Menongue"></option>
+    <option value="Viana"></option>
+    <option value="Cazenga"></option>
+    <option value="Cidade do Kilamba"></option>
+    <option value="Sambizanga"></option>
+    <option value="Talatona"></option>
+    <option value="Catete"></option>
+    <option value="Cuca"></option>
+    <option value="Grafanil"></option>
+    <option value="Golf 1"></option>
+    <option value="Golf 2"></option>
+    <option value="Zango 1"></option>
+    <option value="Zango 2"></option>
+    <option value="Zango 3"></option>
+    <option value="Zango 4"></option>
+    <option value="Vila Alice"></option>
+    <option value="Maianga"></option>
+    <option value="Alvalade"></option>
+    <option value="Mutamba"></option>
+    <option value="Luanda Sul"></option>
+    <option value="Cunene"></option>
+    <option value="Uíge"></option>
+    <option value="Bengo"></option>
+    <option value="Zaire"></option>
+    <option value="Kuanza Sul"></option>
+    <option value="Kuanza Norte"></option>
+    <option value="Condomínio Girassol"></option>
+  </datalist>
+    </fieldset>
+    
+			<textarea name="Smg" id="ISmg" cols="30" rows="2" placeholder="Deixe a sua mensagem"></textarea></p>
+	</fieldset>
+	<input type="image" name="enviar" id="botao" src="imgs/botao.png" style="border: none; position: relative; top: -10px; left:120px; background-color: transparent;"/>
+			</form>
+      </section>
+<aside id="lateral">
+  <h1>Veja Também</h1>
+<article class="aaa">
+<h2>Galeria</h2>
+<a href="galeria.html"><p>Veja nossas vivências e emoções. Momentos de harmonia, amidade e paz entre alunos e funcionários do Colégio.</p>
+</article></a>
+
+<article class="aaa">
+<h2>Cursos</h2>
+<a href="cursos.html">
+<p>Venha fazer o seu ensino médio connosco. Possuímos os melhores recursos para que tenhas a melhor condições de ensino.</p>
+</article></a>
+
+<article class="aaa">
+<h2>Inscreva-se</h2>
+<a href="inscreva-se.html">
+<p>Estude connosco, acesse o link de inscrições e veja o que fazer para estudar connosco</p>
+</article></a>
+</aside>
+<footer id="rodape">
+<p>Infor12 copyright &copy; 2016</p>
+</footer>
+</div>
+</body>
+</html>

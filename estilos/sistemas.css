@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+ul#sistemas {
+	margin: auto;
+	margin-top: -50px;
+	padding-bottom: -10px;
+	padding-left: 35px;
+	overflow: hidden;
+	list-style: none;
+}
+
+/*Configurando o ul*/
+ul#sistemas li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 70px;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+	box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+	-webkit-transition: all 0.5s ease-out;
+}
+
+/*Introduzindo as Imagens*/
+ul#sistemas li#foto01 {
+	background: url('../icones/ic-hover.png') no-repeat;
+	background-position: 50% 50%;
+	background-size:127px 127px;
+	background-color: #ffffff;
+}
+ul#sistemas li#foto02 {
+	background: url('../icones/ic2-hover.png') no-repeat;
+	background-position: 50% 50%;
+	background-size:127px 127px;
+	background-color: #ffffff;}
+	
+ul#sistemas li#foto03 {
+	background: url('../icones/ic3-hover.png') no-repeat;
+	background-position: 50% 50%;
+	background-size:127px 127px;
+	background-color: #ffffff;
+}
+ul#sistemas li#foto04 {
+	background: url('../icones/ic4-hover.png') no-repeat;
+	background-position: 50% 50%;
+	background-size:127px 127px;
+	background-color: #ffffff;
+}
+
+ul#sistemas li#foto01:hover{
+	background: url("../icones/ic.png");
+	background-position: 100px 100%;
+	background-size: 100px 100px;
+}
+
+ul#sistemas li#foto02:hover{
+	background: url("../icones/ic2.png");
+	background-position: 100px 100%;
+	background-size: 100px 100px;
+}
+
+ul#sistemas li#foto03:hover{
+	background: url("../icones/ic3.png");
+	background-position: 100px 100%;
+	background-size: 100px 100px;
+}
+ul#sistemas li#foto04:hover{
+	background: url("../icones/ic4.png");
+	background-position: 100px 100%;
+	background-size: 100px 100px;
+}
+
+ul#sistemas li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#sistemas li#foto06:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#sistemas li span {
+	color: #00C400;
+	background-color:  rgba(255,255,255,.9);
+	box-shadow: 1px 1px 3px black;
+	font-size: 7pt;
+	border-radius: 20px 10px 20px 10px;
+	line-height: 180px;
+	margin-left: -20px;
+	padding: 5px;
+	transition: color 1s;
+}
+
+ul#sistemas li:hover span{
+	color: orange;
+}
+
+ul#sistemas li:hover{
+	-webkit-transform: scale(1);
+}

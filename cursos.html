@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="estilos/folha.css">
+<link rel="stylesheet" type="text/css" href="estilos/estilos-janela.css">
+<title>Cursos Disponíves</title>
+
+</head>
+<body>
+<div id="interface">
+<header id="cabecalho">
+  
+<p class="rr_left"><script type="text/javascript">
+  data = new Date();
+  dia = data.getDate();
+  mes = data.getMonth();
+  ano = data.getFullYear();
+
+  meses = new Array(12);
+
+  meses[0] = "Janeiro";
+  meses[1] = "Fevereiro";
+  meses[2] = "Março";
+  meses[3] = "Abril";
+  meses[4] = "Maio";
+  meses[5] = "Junho";
+  meses[6] = "Julho";
+  meses[7] = "Agosto";
+  meses[8] = "Setembro";
+  meses[9] = "Outubro";
+  meses[10] = "Novembro";
+  meses[11] = "Dezembro";
+  document.write ("Hoje " + dia + " " + meses[mes] + " " + ano);
+</script></p>
+
+<nav id="menu">
+<ul>
+<li><a href="index.html">INÍCIO</a></li>
+<li><a href="cursos.html">CURSOS</a></li>
+<li><a href="informacao-doc/sala-de-aula.html">INFORMAÇÃO</a></li>
+<li><a href="contacto.html">CONTACTE-NOS</a></li>
+<li><a href="inscreva-se.html">INSCREVA-SE</a></li>
+<li><a href="#">ENSINO PRIMÁRIO</a></li>
+<li><a href="outros/extra.html">MAIS</a></li>
+<li><a href="galeria.html">GALERIA</a></li>
+
+</ul>
+</nav>
+
+<li style="list-style: none; position:absolute; top: 10px;"><a href="index.html"><img src="imgs/logo-site1.png"></a></li>
+</header>
+<section>
+<h1>CURSOS DISPONÍVEIS</h1>
+
+<table class="tab" id="tabela2">
+<tr><td class="iten">CURSOS TÉCNICOS</td></tr>
+<tr><td class="td"><a href="textos/contabilidade.html" target="caixa">Técnico de Contablidade e Gestão</a></td></tr>
+<tr><td class="td"><a href="textos/enfermagem.html" target="caixa">Técnico de Enfermagem</a></td></tr>
+<tr><td class="td"><a href="textos/informatica.html" target="caixa">Técnico de Informática</a></td></tr>
+<tr><td class="td"><a href="textos/recursos-humanos.html" target="caixa">Técnico de Recursos Humanos</a></td></tr>
+<tr><td class="iten">CIÊNCIAS HUMANAS</td></tr>
+<tr><td class="td"><a href="textos/ciencias-fisicas.html" target="caixa">Ciências Físicas e Biológicas</a></td></tr>
+<tr><td class="td"><a href="textos/ciencias-humanas.html" target="caixa">Ciências Humanas</a></td></tr>
+<tr><td class="td" style="border: none;"><a href="textos/economicas-juridicas.html" target="caixa">Ciências Econômicas e Jurídicas</a></td></tr>
+</table>
+
+<iframe src="tabela/descricao.html" id="descricao" name="caixa"></iframe>
+</section>
+<footer id="rodape">
+<p>Infor12 copyright &copy; 2016</p>
+</footer>
+</div>
+</body>
+</html>

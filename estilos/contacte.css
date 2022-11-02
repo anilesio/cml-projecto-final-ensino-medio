@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+form#cont {
+	margin: auto;
+	width: 400px;
+}
+
+fieldset#correio{
+	border-top: 2px solid#B8B8B8;
+	border-bottom: 2px solid#B8B8B8;
+	border-left: none;
+	border-right: none;
+	background-color: #E8E8E8;
+	margin: 20px;
+}
+
+input, textarea{
+	font-family: sans-serif;
+	font-size: 13pt;
+	border: 1px solid #B8B8B8;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+input.int{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 325px;
+	border: none;
+}
+
+textarea{
+	width: 330px;
+	height: 100px;
+	text-align: justify;
+	padding: 10px;
+	text-indent: 30px;
+}
+
+input#botao{
+	background-color: transparent;
+}
+
+input:hover, textarea:hover{
+	background-color: #dddddd;
+	transition: background-color 0.3s;
+}
+
+legend {
+	color: #9C9C9C;
+	font-weight: bold;
+	font-size: 13pt;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+fieldset#sexo {
+	margin: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #9C9C9C;
+}
+
+fieldset.resp {
+	margin: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #9C9C9C;
+	height: 50px;
+	margin-bottom: 20px;
+}

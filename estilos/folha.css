@@ -1,0 +1,333 @@
+@charset UTF-8;
+
+body{
+	font-family: Segoe UI;
+	background-color: #CECECE;
+}
+
+div#interface{
+	width: 1050px;
+	margin: -10px auto 0px auto;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+	background-color: #ffffff;
+}
+
+div#interface p, img, h1, h2, article{
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFD350;
+	transition: color 0.5s;
+}
+
+a:hover{
+	color: #141414;
+}
+
+div#interface h1{
+	margin: 0px;
+}
+
+header#cabecalho{
+	height: 90px;
+	background: url("../imgs/fundo.jpg");
+	border-bottom: 1px solid #C0C0C0;
+	
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	position: absolute;
+	list-style: none;
+	font-size: 10pt;
+	top: 35px;
+	left: 360px;
+}
+
+nav#menu li{
+	display: inline-block;
+	margin: 0px;
+}
+
+nav#menu a{
+	color: #FFFFFF;
+	transition: color 0.5s;
+	transition: border-bottom 0.2s;
+	text-decoration: none;
+	padding: 14px;
+}
+
+nav#menu a:hover{
+	color: #000000;
+	background-color: rgba(255,255,255,0.4);
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.rr_left{
+	color: #000000;
+	font-size: 7pt;
+	text-decoration: none;
+	position: absolute;
+	left: 1080px;
+
+}
+
+article.outros{
+	border-bottom: 1px dashed black;
+	text-align: justify;
+}
+
+article.outros h1{
+	text-align: center;
+}
+
+article.outros img{
+	margin-left: 13px; 
+}
+
+ul.infor{
+	position: relative;
+	list-style: none;
+	top: -19px;
+	left: -37px;
+}
+
+ul.infor li{
+	display: inline-block;
+	text-align: center;
+	font-size: 10pt;
+	margin: -3px;
+	background-color: orange;
+}
+
+ul.infor li:hover{
+	background-color: #82C300;
+	border-bottom: 3px solid orange;
+	transition: background-color 1s;
+	transition: border 0.1s;
+}
+
+ul.infor a{
+	border-bottom: 3px solid #FFFFFF;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+section#corpo{
+	border-right: 1px solid black;
+	width: 809px;
+	display: block;
+	float: left;
+	margin-right: 0px;
+	padding: 10px;
+}
+
+section#corpo p{
+	text-indent: 30px;
+	margin-bottom: -10px;
+	text-align: justify;
+}
+
+section#corpo h2{
+	font-size: 15pt;
+	border-bottom: 1px solid orange;
+	width: 500px;
+}
+
+section#corpo ul.list{
+	list-style: none;
+	width: 500px;
+}
+section#corpo ul.list li{
+	padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+    left: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 1px;
+    min-width: 160px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: green;
+}
+
+aside#lateral{
+	display: block;
+	float: right;
+	margin: 10px;
+	width: 190px;
+	padding-left: 10px;	
+}
+
+aside#lateral p{
+	border-radius: 30% 5%;
+	text-indent: 25px;
+	text-align: justify;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+	background-color: rgba(255,219,186,0.2);
+}
+
+aside#lateral p:hover{
+	background-color: orange;
+	box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.5);
+	transition: background-color 0.2s;
+}
+
+aside#lateral article.aaa{
+	border-bottom: 1px solid orange;
+	margin-bottom: 5px;
+}
+
+aside#lateral article.aaa:hover{
+	transition: box-shadow 0.2s;
+}
+
+aside#lateral article.aaa h2{
+	color: orange;
+	margin: 0px;
+}
+
+aside#lateral h1{
+	margin: 0px;
+	padding: 10px;
+	font-size: 18pt;
+}
+
+aside#lateral a{
+	color: #000000;
+	text-decoration: none;
+}
+
+aside#lateral a:hover{
+	color: #ffffff;
+	transition: color 0.2s;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #C0C0C0;
+	background-color: #F6F6F6;
+}
+
+footer#rodape p{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10pt;
+	padding-bottom: 20px;
+	text-indent: 0px;
+}
+
+#content {
+    background: #ECECEC;
+	width: 900px;
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    margin: 5px;
+}
+
+table td.iten{
+	color: #ffffff;
+}
+
+table.tab{
+	border-spacing: 0px;
+	width: 230px;
+	border-right: 1px solid #B8B8B8;
+}
+
+table.tab a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 8pt;
+}
+
+table.tab td{
+	padding: 10px;
+	border-bottom: 4px solid #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+	vertical-align: top;
+	text-align: left;
+}
+
+table.tab td.td:hover{
+	border-bottom: 4px solid #82C300;
+	background: url("../imgs/fundo.jpg");
+	transition: color 0.4s;
+	transition: border-bottom 0.4s;
+	transition: background-color 0.4s;
+}
+
+table.tab td.iten{
+	background-color: #B8B8B8;
+}
+
+table.tab a:hover{
+	color: #FFFFFF;
+	transition: color 0.2s;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1015px;
+  position: relative;
+  left: 8px;
+  top: 5px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #868686;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .0}
+  to {opacity: 1}
+}
